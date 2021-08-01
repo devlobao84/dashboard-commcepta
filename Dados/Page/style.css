@@ -42,4 +42,128 @@ nav {
      
 }
 
+.profile-select {
+     display: flex;
+     background-color: white;
+     margin: 2% 10%  0;
+     height: 150px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dados {
+     
+     margin: 2.5% 0% 10% 15%; 
+}
+.item {
+     margin-top: 5%;
+}
+
+.descricao1 {
+     margin-left: 10%;
+}
+
+.descricao2 {
+     margin-left: 5%;
+}
+
+.descricao3 {
+     margin-left: 10%;
+}
+
+.avatar {
+     width: 100px;
+     margin-left: 12%;
+     margin-top: -60%;
+     margin-bottom: 3%;
+   
+}
+
+/* Lista de profissionais */ 
+
+.profile2 {
+     display: block;
+}
+
+
+/* profissa 1 */
+
+.dados1 {
+     margin-top: 15%;
+     margin-left: 40%;
+}
+
+
+.prof1 {
+     display: flex;
+     background-color: white;
+     margin: 0.2% 10% 0;
+     width: 25%;
+     height: 150px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.avatar1 {
+     width: 100px;
+     height: 100px;
+     margin-left: 12%;
+     margin-top: -60%;
+     margin-bottom: 3%;
+     border-radius: 50px;
+}
+
+/* profissa 2 */
+
+.dados2 {
+     margin-top: 15%;
+     margin-left: 40%;
+}
+
+.prof2 {
+     display: flex;
+     background-color: white;
+     margin: 0.2% 10% 0;
+     width: 25%;
+     height: 150px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.avatar2 {
+     width: 100px;
+     height: 100px;
+     margin-left: 12%;
+     margin-top: -60%;
+     margin-bottom: 3%;
+     border-radius: 50px;
+}
+
+/* profissa 3 */
+
+.dados3 {
+     margin-top: 15%;
+     margin-left: 40%;
+}
+
+.prof3 {
+     display: flex;
+     background-color: white;
+     margin: 0.2% 10% 0;
+     width: 25%;
+     height: 150px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.avatar3 {
+     width: 100px;
+     height: 100px;
+     margin-left: 12%;
+     margin-top: -60%;
+     margin-bottom: 3%;
+     border-radius: 50px;
+}
+
+
+
+
+
+
 
