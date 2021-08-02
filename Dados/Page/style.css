@@ -1,149 +1,116 @@
+@charset "UTF-8";
+/* Variavel Color */
+/* Variáveis Profile dos profissionais */
+body {
+  background-color: #dddddd;
+  font-family: 'Open Sans', sans-serif;
+}
 
 header {
-
-     background-image: linear-gradient(to right, #4dd2d2, #092331);
-}
-
-body {
-     background-color: #dddddd;
-     font-family: 'Open Sans',
-          sans-serif;
-}
-
-.logotipo {
-     display: block;
-     width: 10%;
-     height: 0;
-     margin-left: 10%;
-     padding-top: 15px !important;
-
+  background-image: -webkit-gradient(linear, left top, right top, from(#4dd2d2), to(#092331));
+  background-image: linear-gradient(to right, #4dd2d2, #092331);
 }
 
 .header {
-     width: 100%;
-     height: 80px;
+  width: 100%;
+  height: 80px;
+}
+
+.logotipo {
+  display: block;
+  width: 10%;
+  height: 0;
+  margin-left: 10%;
+  padding-top: 15px !important;
 }
 
 .navbar {
-     display: flex;
-     margin-left: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 850px;
 }
 
 nav {
-     margin-left: 2%;
+  margin-left: 2%;
 }
 
 .menu {
-     display: inline-block;
-     color: white;
-     font-weight: 500;
-     margin-top: 15px;
-     margin-left: 12%;
-
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 12%;
 }
 
 .profile-select {
-     display: flex;
-     background-color: white;
-     margin: 2% 10% 0;
-     height: 150px;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 2% 10% 0;
+  height: 150px;
 }
 
 .dados {
-
-     margin: 2.5% 0% 10% 15%;
+  margin: 2.5% 0% 10% 15%;
 }
 
 .item {
-     margin-top: 5%;
+  margin-top: 5%;
 }
 
 .descricao1 {
-     margin-left: 10%;
+  margin-left: 10%;
 }
 
 .descricao2 {
-     margin-left: 5%;
+  margin-left: 5%;
 }
 
 .descricao3 {
-     margin-left: 10%;
+  margin-left: 10%;
 }
 
 .avatar {
-     width: 100px;
-     margin-left: 12%;
-     margin-top: -60%;
-     margin-bottom: 3%;
-
+  width: 100px;
+  margin-left: 12%;
+  margin-top: -60%;
+  margin-bottom: 3%;
 }
 
-/* Lista de profissionais */
-
 .profile2 {
-     display: flex;
-     justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .flex-contanier {
-     display: flex;
-     background-color: white;
-     margin-left: 0 -50% 0 0;
-     width: 200%;
-     height: 150px;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0 -50% 0 0;
+  width: 200%;
+  height: 150px;
 }
 
-
-/* profissa 1 */
-
-.dados1 {
-     margin-top: 15%;
-     margin-left: 40%;
+.dados1, .dados2, .dados3 {
+  margin: 15% 0 0 40%;
 }
 
-.avatar1 {
-     width: 100px;
-     height: 100px;
-     margin-left: 12%;
-     margin-top: -60%;
-     margin-bottom: 3%;
-     border-radius: 50px;
+.avatar1, .avatar2, .avatar3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 12%;
+  margin-top: -60%;
+  margin-bottom: 3%;
 }
-
-/* profissa 2 */
-
-.dados2 {
-     margin-top: 15%;
-     margin-left: 40%;
-}
-
-.avatar2 {
-     width: 100px;
-     height: 100px;
-     margin-left: 12%;
-     margin-top: -60%;
-     margin-bottom: 3%;
-     border-radius: 50px;
-}
-
-/* profissa 3 */
-
-.dados3 {
-     margin-top: 15%;
-     margin-left: 40%;
-}
-
-.avatar3 {
-     width: 100px;
-     height: 100px;
-     margin-left: 12%;
-     margin-top: -60%;
-     margin-bottom: 3%;
-     border-radius: 50px;
-}
-
-
-
-
+/*# sourceMappingURL=style.css.map */

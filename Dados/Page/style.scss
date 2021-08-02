@@ -1,0 +1,154 @@
+/* Variavel Color */ 
+
+$colorGrandient1 : #4dd2d2;
+$colorGrandent2 : #092331;
+$backgroundGlobal : #dddddd;
+$backgroundModulo : #ffffff;
+$shadowBlock : 0 5px 15px rgba(0, 0, 0, 0.3);
+$boxProfile :  white;
+$boxProfileShadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+
+/* Variáveis Profile dos profissionais */ 
+
+$boxDisplay :  flex;
+$boxMarginLeft : 0 -50% 0 0;
+$boxWidth : 200%;
+$boxHeght : 150px;
+$dadosMargin : 15% 0 0 40%;
+$dadosMarginTop : 15%;
+$dadosMarginLeft : 40%;
+$avatarWidth : 100px;
+$avatarHeigth : 100px;
+$avatarMarginLeft : 12%;
+$avatarMarginTop : -60%;
+$avatarMarginBottom : 3%;
+$avatarBorderRadius : 50px;
+
+
+
+
+
+
+
+body {
+     background-color: $backgroundGlobal; 
+     font-family: 'Open Sans',
+     sans-serif;
+}
+
+header {
+     background-image: linear-gradient(to right, $colorGrandient1, $colorGrandent2);
+}
+
+.header {
+     width: 100%;
+     height: 80px;
+}
+
+.logotipo {
+     display: block;
+     width: 10%;
+     height: 0;
+     margin-left: 10%;
+     padding-top: 15px !important;
+}
+
+.navbar {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     margin-left: 850px;
+}
+
+nav {
+     margin-left: 2%;
+}
+
+
+.menu {
+     display: inline-block;
+     color: white;
+     font-weight: 500;
+     margin-top: 15px;
+     margin-left: 12%;
+}
+
+.profile-select {
+     display: flex;
+     background-color: $boxProfile;
+     box-shadow: $boxProfileShadow;
+     margin: 2% 10% 0;
+     height: 150px;
+}
+
+.dados {
+
+     margin: 2.5% 0% 10% 15%;
+}
+
+.item {
+     margin-top: 5%;
+}
+
+.descricao1 {
+     margin-left: 10%;
+}
+
+.descricao2 {
+     margin-left: 5%;
+}
+
+.descricao3 {
+     margin-left: 10%;
+}
+
+.avatar {
+     width: 100px;
+     margin-left: 12%;
+     margin-top: -60%;
+     margin-bottom: 3%;
+}
+
+.profile2 {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.flex-contanier {
+     display: $boxDisplay;
+     background-color: $backgroundModulo;
+     box-shadow: $shadowBlock;
+     margin-left: $boxMarginLeft;
+     width: $boxWidth;
+     height: $boxHeght;
+}
+
+.dados1, .dados2, .dados3 {margin: $dadosMargin;}
+
+.avatar1, .avatar2, .avatar3 {
+     width: $avatarWidth;
+     height: $avatarHeigth;
+     margin-left: $avatarMarginLeft;
+     margin-top: $avatarMarginTop;
+     margin-bottom: $avatarMarginBottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
