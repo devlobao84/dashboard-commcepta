@@ -43,10 +43,18 @@ nav {
   margin-left: 12%;
 }
 
+.profile {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
+
 .profile-select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 79%;
   background-color: white;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -91,26 +99,29 @@ nav {
 }
 
 .flex-contanier {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  margin-left: 0 -50% 0 0;
-  width: 200%;
+  margin-left: -140%;
+  width: 365%;
   height: 150px;
 }
 
 .dados1, .dados2, .dados3 {
-  margin: 15% 0 0 40%;
+  margin: 15% 0 0 100%;
 }
 
 .avatar1, .avatar2, .avatar3 {
   width: 100px;
   height: 100px;
-  margin-left: 12%;
-  margin-top: -60%;
+  margin-left: -115%;
+  margin-top: -150%;
   margin-bottom: 3%;
 }
 /*# sourceMappingURL=style.css.map */
