@@ -11,18 +11,18 @@ $boxProfileShadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
 /* Variáveis Profile dos profissionais */ 
 
-$boxDisplay :  grid;
+$boxDisplay : grid;
 $boxMarginLeft :  -140% ;
-$boxWidth : 365%;
-$boxHeght : 150px;
+$boxWidth : 345%;
+$boxHeght : 135px;
 $dadosMargin : 15% 0 0 100%;
 $dadosMarginTop : 15%;
-$dadosMarginLeft : 40%;
+$dadosMarginLeft : 50%;
 $avatarWidth : 100px;
 $avatarHeigth : 100px;
-$avatarMarginLeft : -115%;
+$avatarMarginLeft : 2%;
 $avatarMarginTop : -150%;
-$avatarMarginBottom : 3%;
+$avatarMarginBottom : 5%;
 $avatarBorderRadius : 50px;
 
 body {
@@ -49,6 +49,8 @@ header {background-image: linear-gradient(to right, $colorGrandient1, $colorGran
      display: flex;
      margin-left: 850px;
 }
+
+
 nav {margin-left: 2%;}
 
 .menu {
@@ -56,7 +58,7 @@ nav {margin-left: 2%;}
      color: white;
      font-weight: 500;
      margin-top: 15px;
-     margin-left: 12%;
+     margin-left: 10%;
 }
 
 .profile {
@@ -68,7 +70,7 @@ nav {margin-left: 2%;}
 
 .profile-select {
      display: flex;
-     width: 79%;
+     width: 78%;
      background-color: $boxProfile;
      box-shadow: $boxProfileShadow;
      margin: 2% 10% 0;
@@ -93,17 +95,19 @@ nav {margin-left: 2%;}
      justify-content: space-evenly;
 }
 
-.flex-contanier {
+.flex-contanier,  .flex-cont {
      display: $boxDisplay;
      grid-template-columns: auto auto auto;
      grid-column-gap: 10px;  
-     grid-row-gap: 10px;   
+     grid-row-gap: 20px;   
      background-color: $backgroundModulo;
      box-shadow: $shadowBlock;
      margin-left: $boxMarginLeft;
      width: $boxWidth;
      height: $boxHeght;
 }
+
+
 
 .dados1, .dados2, .dados3 {margin: $dadosMargin;}
 
@@ -113,6 +117,7 @@ nav {margin-left: 2%;}
      margin-left: $avatarMarginLeft;
      margin-top: $avatarMarginTop;
      margin-bottom: $avatarMarginBottom;
+     
 }
 
 

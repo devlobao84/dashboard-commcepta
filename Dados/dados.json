@@ -1,63 +1,63 @@
 [ 
   { 
     "id": 1,
-    "foto": "foto-alberto.jpg",
+    "foto": "retrato01-edt.png",
     "nome": "Alberto",
     "cargo": "Presidente",
     "idade": 20 
   },
   { 
     "id": 2,
-    "foto": "foto-bruno.jpg",
+    "foto": "retrato02-edt.png",
     "nome": "Bruno",
     "cargo": "Diretor",
     "idade": 21 
   },
   { 
     "id": 3,
-    "foto": "foto-helena.jpg",
+    "foto": "retrato03-edt.png",
     "nome": "Helena",
     "cargo": "Gerente",
     "idade": 22
   },
   { 
     "id": 4,
-    "foto": "foto-fernanda.jpg",
+    "foto": "retrato04-edt.png",
     "nome": "Fernanda",
     "cargo": "Desenvolvedor",
     "idade": 23
   },
   { 
     "id": 5,
-    "foto": "foto-diego.jpg",
+    "foto": "retrato05-edt.png",
     "nome": "Diego",
     "cargo": "Desenvolvedor",
     "idade": 24
   },
   { 
     "id": 6,
-    "foto": "foto-iris.jpg",
+    "foto": "retrato06-edt.png",
     "nome": "Iris",
     "cargo": "Desenvolvedor",
     "idade": 25 
   },
   { 
     "id": 7,
-    "foto": "foto-hugo.jpg",
+    "foto": "retrato07-edt.png",
     "nome": "Hugo",
     "cargo": "Desenvolvedor",
     "idade": 26 
   },
   { 
     "id": 8,
-    "foto": "foto-gustavo.jpg",
+    "foto": "retrato08-edt.png",
     "nome": "Gustavo",
     "cargo": "Desenvolvedor",
     "idade": 27
   },
   { 
     "id": 9,
-    "foto": "foto-gabriel.jpg",
+    "foto": "retrato09-edt.png",
     "nome": "Gabriel",
     "cargo": "Desenvolvedor",
     "idade": 28
