@@ -14,6 +14,7 @@ $buttonColor :  #e61313;
 $boxDisplay : grid;
 $boxMarginLeft :  -185% ;
 $boxWidth : 435%;
+$boxWidthRespo : 250px;
 $boxHeght : 135px;
 $dadosMargin : 28% 0 0 100%;
 $dadosMarginTop : 15%;
@@ -91,9 +92,15 @@ nav {margin-left: 2%;}
      margin-bottom: 3%;
 }
 
+.profile1  {
+     display: flex;
+     justify-content: space-evenly;
+}
+
 .profile2 {
      display: flex;
      justify-content: space-evenly;
+     margin-top: 100px; 
 }
 
 .flex-contanier,  .flex-cont {
@@ -103,7 +110,7 @@ nav {margin-left: 2%;}
      grid-row-gap: 20px;   
      background-color: $backgroundModulo;
      box-shadow: $shadowBlock;
-     margin-left: $boxMarginLeft;
+     margin-left: $boxMarginLeft;     
      width: $boxWidth;
      height: $boxHeght;
 }
@@ -125,14 +132,63 @@ nav {margin-left: 2%;}
      
 }
 
-.busca {     
+.busca01, .busca02, .busca03, .busca04, .busca05, .busca06, .busca07, .busca08, .busca09 {
      width: 80px;
      height: 50px;
      background-color: none;     
      cursor: pointer;
-     z-index: 10;
-     
+     z-index: 10; 
 }
+
+@media (max-width: 540px) {
+     .header {
+          width: 200%;
+          height: 80px;
+     }
+
+     .logotipo {
+          display: block;
+          width: 125px;
+          height: 0;
+          margin-left: 5%;
+          padding-top: 15px !important;
+     }
+
+     nav {
+          margin-left: -50%;
+     }
+
+     .menu {
+          display: inline-block;
+          color: white;
+          font-weight: 500;
+          margin-top: 15px;
+          margin-left: 2%;
+     }
+
+     .cont-respo,
+     .cont-respo2 {
+          display: $boxDisplay;
+          grid-template-columns: auto auto;
+          grid-column-gap: 10px;
+          grid-row-gap: auto;
+          background-color: $backgroundModulo;
+          box-shadow: $shadowBlock;
+          margin-left: $boxMarginLeft;
+          width: $boxWidthRespo;
+          height: $boxHeght;
+     }
+
+  
+
+
+
+
+}
+
+
+
+
 
 
 
