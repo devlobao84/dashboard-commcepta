@@ -24,8 +24,8 @@ const profileData = async () => {
 
      console.log(data);
 
-     profileWrapper.innerHTML = profileMapgit 
-     return data
+          profileWrapper.innerHTML = profileMapgit
+          return data
 
 }
 
