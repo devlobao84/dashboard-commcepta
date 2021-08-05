@@ -1,23 +1,9 @@
-//Declarando variavéis globais (id do html)
-let inputSearch = null,
-     buttonSearch = null,
-     panelUser = null,
-     panelStatistics = null;
+let button = document.querySelector('button');
 
-//Carregando os elementos
-window.addEventListener('load', () => {
-     mapElements();
-     fetchUsers();
-});
-
-//lendo um arquivo externo com json
-async function fetchUsers() {
-     const res = await fetch('dados.json');
-     const json = await res.json();
-     console.log(json);
+button.onclick = function () {
+     let nome = prompt('Qual é o seu nome?');
+     alert('Olá ' + nome + ', é um prazer te ver!');
 }
-
-
 
 
 

@@ -6,23 +6,24 @@ $backgroundGlobal : #dddddd;
 $backgroundModulo : #ffffff;
 $shadowBlock : 0 5px 15px rgba(0, 0, 0, 0.3);
 $boxProfile :  white;
-$boxProfileShadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
+$boxProfileShadow : 0 5px 15px rgba(0, 0, 0, 0.3);
+$buttonColor :  #e61313;
 
 /* Variáveis Profile dos profissionais */ 
 
 $boxDisplay : grid;
-$boxMarginLeft :  -140% ;
-$boxWidth : 345%;
+$boxMarginLeft :  -185% ;
+$boxWidth : 435%;
 $boxHeght : 135px;
-$dadosMargin : 15% 0 0 100%;
+$dadosMargin : 28% 0 0 100%;
 $dadosMarginTop : 15%;
 $dadosMarginLeft : 50%;
+$dadosFonSize :  1.3em;
 $avatarWidth : 100px;
 $avatarHeigth : 100px;
-$avatarMarginLeft : -120%;
+$avatarMarginLeft : -305%;
 $avatarMarginTop : -150%;
-$avatarMarginBottom : 5%;
+$avatarMarginBottom : 35%;
 $avatarBorderRadius : 50px;
 
 body {
@@ -109,7 +110,11 @@ nav {margin-left: 2%;}
 
 
 
-.dados1, .dados2, .dados3 {margin: $dadosMargin;}
+.dados1, .dados2, .dados3 {
+     margin: $dadosMargin;
+     font-size: $dadosFonSize;
+     
+     }
 
 .avatar1, .avatar2, .avatar3 {
      width: $avatarWidth;
@@ -117,6 +122,15 @@ nav {margin-left: 2%;}
      margin-left: $avatarMarginLeft;
      margin-top: $avatarMarginTop;
      margin-bottom: $avatarMarginBottom;
+     
+}
+
+.busca {     
+     width: 80px;
+     height: 50px;
+     background-color: none;     
+     cursor: pointer;
+     z-index: 10;
      
 }
 
