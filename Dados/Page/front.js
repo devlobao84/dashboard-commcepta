@@ -18,13 +18,6 @@ async function fetchUsers() {
 }
 
 
-//elementos que irão retornar as informações do arquivo json
-function mapElements() {
-     inputSearch = document.querySelector('#inputSearch');
-     buttonSearch = document.querySelector('#buttonSearch');
-     panelUser = document.querySelector('#panelUser');
-     panelStatistics = document.querySelector('#panelStatistics');
-}
 
 
 
